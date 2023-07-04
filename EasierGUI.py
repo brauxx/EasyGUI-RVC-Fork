@@ -1682,7 +1682,7 @@ def zip_downloader(model):
     else:
         return f'./weights/{model}.pth', "Could not find Index file."
 
-with gr.Blocks(theme=gr.themes.Base()) as app:
+with gr.Blocks(theme=gr.themes.Monochrome()) as app:
     with gr.Tabs():
         with gr.TabItem("Inference"):
             gr.HTML("<h1> Easy GUI v2 (rejekts) - adapted to Mangio-RVC-Fork 💻 </h1>")
